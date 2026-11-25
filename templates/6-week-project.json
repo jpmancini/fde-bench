@@ -1,0 +1,503 @@
+{
+  "_about": "The '6-week project' template a scenario names with project.projectType. FDE-bench sends it in setup (docs/sut-protocol.md); a SUT applies it, or its own equivalent, when it creates the project. {provider} and {customer} stand for the scenario's provider firm and customer names. offsetDays count from the kickoff Monday (day 0); they are timing hints, not due dates (only an agreed timeline dates actions).",
+  "name": "6-week project",
+  "description": "Scoping (Week 0), build (Weeks 1-2), two UAT rounds (Weeks 3-4), handoff (Week 5).",
+  "durationWeeks": 6,
+  "goals": [
+    {
+      "key": "scoped",
+      "title": "Scope and access agreed"
+    },
+    {
+      "key": "built",
+      "title": "MVP built and signed off"
+    },
+    {
+      "key": "accepted",
+      "title": "UAT passed"
+    },
+    {
+      "key": "handed-off",
+      "title": "Live in production, owner trained"
+    }
+  ],
+  "defaultActions": [
+    {
+      "key": "kickoff",
+      "task": "Run the kickoff call",
+      "owner": "{provider}: lead",
+      "priority": "P1",
+      "goalKeys": [
+        "scoped"
+      ],
+      "offsetDays": 0
+    },
+    {
+      "key": "holds",
+      "task": "Send all calendar holds",
+      "owner": "{provider}: lead",
+      "priority": "P1",
+      "goalKeys": [
+        "scoped"
+      ],
+      "offsetDays": 0
+    },
+    {
+      "key": "access",
+      "task": "Get all data access live",
+      "owner": "{customer}: IT lead",
+      "priority": "P0",
+      "goalKeys": [
+        "scoped"
+      ],
+      "offsetDays": 3
+    },
+    {
+      "key": "spec",
+      "task": "Send the final build spec",
+      "owner": "{provider}: lead",
+      "priority": "P1",
+      "goalKeys": [
+        "scoped"
+      ],
+      "offsetDays": 4
+    },
+    {
+      "key": "demo",
+      "task": "Demo the MVP and align on UAT",
+      "owner": "{provider}: lead",
+      "priority": "P2",
+      "goalKeys": [
+        "built"
+      ],
+      "offsetDays": 17
+    },
+    {
+      "key": "signoff",
+      "task": "Get build spec sign-off",
+      "owner": "{customer}: sponsor",
+      "priority": "P2",
+      "goalKeys": [
+        "built"
+      ],
+      "offsetDays": 18
+    },
+    {
+      "key": "r1",
+      "task": "Collect Round 1 UAT feedback",
+      "owner": "{customer}: UAT group",
+      "priority": "P2",
+      "goalKeys": [
+        "accepted"
+      ],
+      "offsetDays": 24
+    },
+    {
+      "key": "docs",
+      "task": "Write the handoff documentation",
+      "owner": "{provider}: lead",
+      "priority": "P3",
+      "goalKeys": [
+        "handed-off"
+      ],
+      "offsetDays": 37
+    },
+    {
+      "key": "readout",
+      "task": "Hold the final readout",
+      "owner": "{provider}: lead",
+      "priority": "P3",
+      "goalKeys": [
+        "handed-off"
+      ],
+      "offsetDays": 38
+    }
+  ],
+  "timelineEvents": [
+    {
+      "key": "weekly-checkin",
+      "title": "Weekly check-in call",
+      "kind": "meeting",
+      "phase": "Every week",
+      "offsetDays": 10,
+      "group": "Cadence",
+      "owner": "{provider}: lead",
+      "detail": "Covers progress, open items, next steps",
+      "recurrence": {
+        "freq": "weekly",
+        "days": [
+          "Thu"
+        ],
+        "fromWeek": 1,
+        "toWeek": 4
+      }
+    },
+    {
+      "key": "kickoff-call",
+      "title": "Kickoff call",
+      "kind": "meeting",
+      "phase": "Scoping (Week 0)",
+      "offsetDays": 0,
+      "group": "Kickoff",
+      "owner": "{provider}: lead",
+      "detail": "Confirm goals, how we'll measure success, and who tests"
+    },
+    {
+      "key": "calendar-holds",
+      "title": "All calendar holds sent",
+      "kind": "deliverable",
+      "phase": "Scoping (Week 0)",
+      "offsetDays": 0,
+      "group": "Kickoff",
+      "owner": "{provider}: lead",
+      "detail": "Block times for the next 4-5 weeks upfront"
+    },
+    {
+      "key": "tech-scoping",
+      "title": "Technical scoping",
+      "kind": "meeting",
+      "phase": "Scoping (Week 0)",
+      "offsetDays": 1,
+      "group": "Technical",
+      "owner": "{provider}: lead",
+      "detail": "IT/data lead shares the list of systems, data sources and logins"
+    },
+    {
+      "key": "questions-blockers",
+      "title": "Questions & blockers",
+      "kind": "deliverable",
+      "phase": "Scoping (Week 0)",
+      "offsetDays": 1,
+      "group": "Technical",
+      "owner": "{provider}: lead",
+      "detail": "List of remaining questions and blockers still needed"
+    },
+    {
+      "key": "access-checklist",
+      "title": "Access checklist",
+      "kind": "deliverable",
+      "phase": "Scoping (Week 0)",
+      "offsetDays": 2,
+      "group": "Technical",
+      "owner": "{provider}: lead",
+      "detail": "IT sets up accounts, data access and infrastructure"
+    },
+    {
+      "key": "access-live",
+      "title": "All access live (EOD)",
+      "kind": "deadline",
+      "phase": "Scoping (Week 0)",
+      "offsetDays": 3,
+      "group": "Technical",
+      "owner": "{customer}",
+      "detail": "Data access complete and ready for build"
+    },
+    {
+      "key": "spec-sent",
+      "title": "Final build spec sent",
+      "kind": "deliverable",
+      "phase": "Scoping (Week 0)",
+      "offsetDays": 4,
+      "group": "Spec",
+      "owner": "{provider}: lead",
+      "detail": "Flag any changes or feedback by Monday"
+    },
+    {
+      "key": "scope-finalized",
+      "title": "Scope finalized",
+      "kind": "milestone",
+      "phase": "Scoping (Week 0)",
+      "offsetDays": 4,
+      "group": "Spec"
+    },
+    {
+      "key": "mvp-build",
+      "title": "MVP build",
+      "kind": "deliverable",
+      "phase": "Build (Weeks 1-2)",
+      "offsetDays": 7,
+      "group": "Build",
+      "endOffsetDays": 18,
+      "owner": "{provider}: lead",
+      "detail": "Weekly calls and emails to source client feedback"
+    },
+    {
+      "key": "build-blockers",
+      "title": "Build blockers flagged",
+      "kind": "deliverable",
+      "phase": "Build (Weeks 1-2)",
+      "offsetDays": 8,
+      "group": "Week 1",
+      "owner": "{provider}: lead",
+      "detail": "Blockers and questions sent via email"
+    },
+    {
+      "key": "build-spec-update",
+      "title": "Build spec update",
+      "kind": "deliverable",
+      "phase": "Build (Weeks 1-2)",
+      "offsetDays": 11,
+      "group": "Week 1",
+      "owner": "{provider}: lead",
+      "detail": "End-of-week update on build progress and project timeline"
+    },
+    {
+      "key": "final-blockers",
+      "title": "Final blockers flagged",
+      "kind": "deliverable",
+      "phase": "Build (Weeks 1-2)",
+      "offsetDays": 15,
+      "group": "Week 2",
+      "owner": "{provider}: lead",
+      "detail": "Blockers and questions sent via email"
+    },
+    {
+      "key": "uat-plan",
+      "title": "UAT plan shared",
+      "kind": "deliverable",
+      "phase": "Build (Weeks 1-2)",
+      "offsetDays": 15,
+      "group": "Week 2",
+      "owner": "{provider}: lead",
+      "detail": "Lock in the plan with the User Acceptance Testing (UAT) group"
+    },
+    {
+      "key": "demo-uat",
+      "title": "Demo + UAT alignment",
+      "kind": "meeting",
+      "phase": "Build (Weeks 1-2)",
+      "offsetDays": 17,
+      "group": "Week 2",
+      "owner": "{provider}: lead",
+      "detail": "Demo the tool and plan UAT"
+    },
+    {
+      "key": "spec-signoff",
+      "title": "Build spec sign-off",
+      "kind": "client-task",
+      "phase": "Build (Weeks 1-2)",
+      "offsetDays": 18,
+      "group": "Week 2",
+      "owner": "{customer}",
+      "detail": "Client signs off on the final spec via email"
+    },
+    {
+      "key": "uat-link",
+      "title": "UAT link + plan shared",
+      "kind": "deliverable",
+      "phase": "Build (Weeks 1-2)",
+      "offsetDays": 18,
+      "group": "Week 2",
+      "owner": "{provider}: lead",
+      "detail": "UAT instructions shared ahead of next week's call"
+    },
+    {
+      "key": "enter-uat",
+      "title": "Enter UAT period",
+      "kind": "milestone",
+      "phase": "Build (Weeks 1-2)",
+      "offsetDays": 18,
+      "group": "Week 2"
+    },
+    {
+      "key": "uat-kickoff",
+      "title": "UAT kickoff",
+      "kind": "meeting",
+      "phase": "User Acceptance Testing (Weeks 3-4)",
+      "offsetDays": 21,
+      "group": "Round 1",
+      "owner": "{provider}: lead",
+      "detail": "Full UAT team attends and confirms access on the call"
+    },
+    {
+      "key": "r1-grid",
+      "title": "R1 UAT grid sent",
+      "kind": "deliverable",
+      "phase": "User Acceptance Testing (Weeks 3-4)",
+      "offsetDays": 21,
+      "group": "Round 1",
+      "owner": "{provider}: lead",
+      "detail": "UAT grid for Round 1 offline testing instructions"
+    },
+    {
+      "key": "r1-testing",
+      "title": "Offline testing (Round 1)",
+      "kind": "client-task",
+      "phase": "User Acceptance Testing (Weeks 3-4)",
+      "offsetDays": 21,
+      "group": "Round 1",
+      "endOffsetDays": 24,
+      "owner": "{customer}",
+      "detail": "UAT group works through the testing plan individually"
+    },
+    {
+      "key": "r1-feedback",
+      "title": "R1 feedback due (EOD)",
+      "kind": "deadline",
+      "phase": "User Acceptance Testing (Weeks 3-4)",
+      "offsetDays": 24,
+      "group": "Round 1",
+      "owner": "{customer}",
+      "detail": "Round 1 UAT feedback submitted via email"
+    },
+    {
+      "key": "r1-kickout",
+      "title": "UAT kickout for fixes (Round 1)",
+      "kind": "deliverable",
+      "phase": "User Acceptance Testing (Weeks 3-4)",
+      "offsetDays": 25,
+      "group": "Round 1",
+      "owner": "{provider}: lead",
+      "detail": "{provider} deploys fixes, flags any that are out of scope to the client"
+    },
+    {
+      "key": "uat-summary",
+      "title": "UAT summary",
+      "kind": "deliverable",
+      "phase": "User Acceptance Testing (Weeks 3-4)",
+      "offsetDays": 25,
+      "group": "Round 1",
+      "owner": "{provider}: lead",
+      "detail": "End-of-week email for updates and expected changes"
+    },
+    {
+      "key": "uat-reopened",
+      "title": "UAT period re-opened",
+      "kind": "deliverable",
+      "phase": "User Acceptance Testing (Weeks 3-4)",
+      "offsetDays": 28,
+      "group": "Round 2",
+      "owner": "{provider}: lead",
+      "detail": "Round updates shared with the testing group via email"
+    },
+    {
+      "key": "r2-grid",
+      "title": "R2 UAT grid sent",
+      "kind": "deliverable",
+      "phase": "User Acceptance Testing (Weeks 3-4)",
+      "offsetDays": 28,
+      "group": "Round 2",
+      "owner": "{provider}: lead",
+      "detail": "UAT grid for Round 2 offline testing instructions"
+    },
+    {
+      "key": "r2-testing",
+      "title": "Offline testing (Round 2)",
+      "kind": "client-task",
+      "phase": "User Acceptance Testing (Weeks 3-4)",
+      "offsetDays": 28,
+      "group": "Round 2",
+      "endOffsetDays": 31,
+      "owner": "{customer}",
+      "detail": "UAT group works through the testing plan individually"
+    },
+    {
+      "key": "r2-feedback",
+      "title": "R2 feedback due (EOD)",
+      "kind": "deadline",
+      "phase": "User Acceptance Testing (Weeks 3-4)",
+      "offsetDays": 31,
+      "group": "Round 2",
+      "owner": "{customer}",
+      "detail": "Round 2 UAT feedback submitted via email"
+    },
+    {
+      "key": "r2-kickout",
+      "title": "UAT kickout for fixes (Round 2)",
+      "kind": "deliverable",
+      "phase": "User Acceptance Testing (Weeks 3-4)",
+      "offsetDays": 32,
+      "group": "Round 2",
+      "owner": "{provider}: lead",
+      "detail": "{provider} deploys fixes, flags any that are out of scope to the client"
+    },
+    {
+      "key": "close-uat",
+      "title": "Close UAT period",
+      "kind": "milestone",
+      "phase": "User Acceptance Testing (Weeks 3-4)",
+      "offsetDays": 32,
+      "group": "Round 2"
+    },
+    {
+      "key": "uat-fixes",
+      "title": "Implement fixes flagged in UAT",
+      "kind": "deliverable",
+      "phase": "User Acceptance Testing (Weeks 3-4)",
+      "offsetDays": 28,
+      "group": "Fixes",
+      "endOffsetDays": 36,
+      "owner": "{provider}: lead"
+    },
+    {
+      "key": "owner-handoff",
+      "title": "Client owner handoff",
+      "kind": "meeting",
+      "phase": "Handoff (Week 5)",
+      "offsetDays": 36,
+      "group": "Handoff",
+      "owner": "{provider}: lead",
+      "detail": "Show the client owner how to run and manage the tool"
+    },
+    {
+      "key": "handoff-docs",
+      "title": "Handoff documentation",
+      "kind": "deliverable",
+      "phase": "Handoff (Week 5)",
+      "offsetDays": 37,
+      "group": "Handoff",
+      "owner": "{provider}: lead",
+      "detail": "Final documentation submitted for tool ownership handoff"
+    },
+    {
+      "key": "final-readout",
+      "title": "Final readout",
+      "kind": "meeting",
+      "phase": "Handoff (Week 5)",
+      "offsetDays": 38,
+      "group": "Handoff",
+      "owner": "{provider}: lead",
+      "detail": "Share results. Discuss next project, support"
+    },
+    {
+      "key": "live",
+      "title": "Live in production",
+      "kind": "milestone",
+      "phase": "Handoff (Week 5)",
+      "offsetDays": 39,
+      "group": "Handoff"
+    },
+    {
+      "key": "support-next",
+      "title": "Support + next project",
+      "kind": "deliverable",
+      "phase": "Handoff (Week 5)",
+      "offsetDays": 39,
+      "group": "Handoff",
+      "owner": "{provider}: lead",
+      "detail": "Pick a date to scope the next phase"
+    },
+    {
+      "key": "warranty",
+      "title": "Support warranty window",
+      "kind": "deliverable",
+      "phase": "After handoff",
+      "offsetDays": 42,
+      "group": "Support",
+      "endOffsetDays": 53,
+      "owner": "{provider}: lead",
+      "detail": "Send issues during warranty to the {provider} support inbox"
+    },
+    {
+      "key": "next-week0",
+      "title": "Next-project Week 0",
+      "kind": "meeting",
+      "phase": "After handoff",
+      "offsetDays": 42,
+      "group": "Next project",
+      "endOffsetDays": 46,
+      "owner": "{provider}: lead",
+      "detail": "Repeat the Week 0 process"
+    }
+  ]
+}

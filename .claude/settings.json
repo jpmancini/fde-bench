@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "deny": [
+      "Read(~/Dev/fde-bench-packs/work/**)",
+      "Edit(~/Dev/fde-bench-packs/work/**)",
+      "Read(~/Dev/fde-bench-packs/sealed/**)",
+      "Read(~/Dev/fde-bench-packs/unseal.sh)",
+      "Edit(~/Dev/fde-bench-packs/unseal.sh)",
+      "Bash(*fde-bench-packs/work*)",
+      "Bash(*fde-bench-packs/sealed*)",
+      "Bash(*fde-bench-packs/unseal*)",
+      "Bash(*unseal.sh*)",
+      "Bash(*fde-bench unseal*)",
+      "Bash(*--debug-unsafe*)"
+    ]
+  }
+}

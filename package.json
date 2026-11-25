@@ -1,0 +1,26 @@
+{
+  "name": "fde-bench",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A blind benchmark for forward-deployed-engineer software: systems that keep an accurate picture of a client engagement from emails, calls and documents over time.",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "bin": { "fde-bench": "bin/fde-bench" },
+  "scripts": {
+    "test": "node --import tsx --test test/*.test.ts",
+    "check": "tsc --noEmit",
+    "toy": "node bin/fde-bench run --sut \"node examples/toy-sut/adapter.mjs\" --pack examples --model-stub"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.129.0",
+    "tsx": "^4.19.0",
+    "zod": "^3.25.76"
+  },
+  "optionalDependencies": {
+    "@aws-sdk/client-secrets-manager": "^3.1143.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.0"
+  }
+}

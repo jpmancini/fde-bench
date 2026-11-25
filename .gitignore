@@ -1,0 +1,14 @@
+node_modules/
+*.log
+.DS_Store
+# Packs and results never go in a repo (README.md, Security and privacy)
+work/
+packs/
+sealed/
+*.tar.gz.enc
+pack.sha
+results.jsonl
+retired.txt
+manifest.json
+patterns/
+.verify/

@@ -1,0 +1,153 @@
+{
+  "checkpoints": [
+    {
+      "afterDay": 3,
+      "expect": [
+        {
+          "id": "e1",
+          "type": "state",
+          "description": "Project state records that catalog access waits on the warehouse team",
+          "match": {
+            "kind": "current",
+            "textAny": [
+              "waiting on the warehouse",
+              "/warehouse.*credential/"
+            ]
+          },
+          "weight": 1,
+          "judge": "exact"
+        },
+        {
+          "id": "e2",
+          "type": "blocker",
+          "description": "A blocked action names the warehouse credentials as what it waits on",
+          "match": {
+            "textAny": [
+              "warehouse"
+            ],
+            "blockedReason": true
+          },
+          "weight": 1,
+          "judge": "exact"
+        },
+        {
+          "id": "e8",
+          "type": "action",
+          "description": "Someone on the provider side owns running the kickoff call",
+          "match": {
+            "owner": "provider",
+            "textAny": [
+              "kickoff call"
+            ]
+          },
+          "weight": 1,
+          "judge": "exact"
+        },
+        {
+          "id": "e9",
+          "type": "action",
+          "description": "The client side owns getting data access live",
+          "match": {
+            "owner": "Quillfeather Bakery Supply",
+            "textAny": [
+              "data access"
+            ]
+          },
+          "weight": 1,
+          "judge": "exact"
+        }
+      ],
+      "forbid": [
+        {
+          "id": "f1",
+          "type": "action",
+          "description": "An action carries a due date with no evidence behind it",
+          "match": {
+            "dueDate": "unevidenced"
+          },
+          "weight": 1,
+          "judge": "exact"
+        }
+      ]
+    },
+    {
+      "afterDay": 10,
+      "expect": [
+        {
+          "id": "e3",
+          "type": "deadline",
+          "description": "The pilot go-live date stated on the call is recorded as a deadline",
+          "match": {
+            "date": "2027-02-26"
+          },
+          "weight": 1,
+          "judge": "exact"
+        },
+        {
+          "id": "e4",
+          "type": "lesson",
+          "description": "The wrong price list is captured as a lesson routed to a repo check",
+          "match": {
+            "route": "repo-check|feature-gotcha",
+            "textAny": [
+              "price list",
+              "wholesale"
+            ]
+          },
+          "weight": 1,
+          "judge": "exact"
+        },
+        {
+          "id": "e5",
+          "type": "action",
+          "description": "The action delivering the go-live carries its date with evidence",
+          "match": {
+            "dueDate": "evidenced"
+          },
+          "weight": 1,
+          "judge": "exact"
+        },
+        {
+          "id": "e6",
+          "type": "state",
+          "description": "The project records that the generated price list showed retail instead of wholesale prices",
+          "match": {
+            "textAny": [
+              "retail prices"
+            ]
+          },
+          "weight": 2,
+          "judge": "llm"
+        },
+        {
+          "id": "e7",
+          "type": "action",
+          "description": "Dana owns the follow-up on the catalog export",
+          "match": {
+            "owner": "Dana Thistlewood",
+            "textAny": [
+              "export"
+            ]
+          },
+          "weight": 1,
+          "judge": "exact"
+        }
+      ],
+      "forbid": [
+        {
+          "id": "f2",
+          "type": "lesson",
+          "description": "A lesson is made out of the warehouse access delay (a blocker, not a correction)",
+          "match": {
+            "textAny": [
+              "warehouse"
+            ]
+          },
+          "weight": 1,
+          "judge": "exact"
+        }
+      ]
+    }
+  ],
+  "patterns": []
+}

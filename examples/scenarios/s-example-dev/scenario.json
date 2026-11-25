@@ -1,0 +1,65 @@
+{
+  "id": "s-example-dev",
+  "split": "dev",
+  "title": "PUBLIC EXAMPLE (fictional): wholesale order assistant for a bakery supplier",
+  "kickoffDate": "2027-02-01",
+  "customer": {
+    "name": "Quillfeather Bakery Supply",
+    "industry": "wholesale baking ingredients (fictional)"
+  },
+  "project": {
+    "code": "QBS",
+    "name": "Wholesale order assistant",
+    "projectType": "6-week project",
+    "kickoffOffsetDays": 0,
+    "durationWeeks": 6
+  },
+  "people": [
+    {
+      "name": "Dana Thistlewood",
+      "side": "client",
+      "role": "Operations lead",
+      "email": "dana@quillfeather.example"
+    },
+    {
+      "name": "Rowan Pike",
+      "side": "provider",
+      "role": "Delivery lead",
+      "email": "rowan@provider.example"
+    }
+  ],
+  "engagements": [
+    {
+      "day": -3,
+      "kind": "sow",
+      "title": "Statement of work: wholesale order assistant",
+      "text": "Statement of work (fictional example)\nThe assistant answers wholesale order questions from the catalog and the marzipan ledger.\nGoal: Wholesale buyers get catalog answers and order status from the assistant\nFixed fee, six weeks.",
+      "sourceUrl": "https://example.invalid/blind-eval-example/sow"
+    },
+    {
+      "day": 2,
+      "kind": "email",
+      "title": "Re: catalog access",
+      "text": "From: Dana Thistlewood <dana@quillfeather.example>\nSubject: Re: catalog access\n\nHi Rowan,\nWe are waiting on the warehouse team for the catalog export credentials. I will chase them Thursday.\nDana",
+      "sourceUrl": "https://example.invalid/blind-eval-example/email-1"
+    },
+    {
+      "day": 8,
+      "kind": "transcript",
+      "title": "Weekly check-in call",
+      "text": "# Weekly check-in\n## Notes\n- The pilot must be live by 2027-02-26 for the spring catalog.\n- Credentials arrived Monday.\n## Full transcript\nDana Thistlewood: The pilot must be live by 2027-02-26 for the spring catalog.\nRowan Pike: Understood.",
+      "sourceUrl": "https://example.invalid/blind-eval-example/call-1"
+    },
+    {
+      "day": 9,
+      "kind": "email",
+      "title": "Price list",
+      "text": "From: Dana Thistlewood <dana@quillfeather.example>\nSubject: Price list\n\nRowan, the price list you generated is wrong: it shows retail prices instead of wholesale prices.\nDana",
+      "sourceUrl": "https://example.invalid/blind-eval-example/email-2"
+    }
+  ],
+  "checkpoints": [
+    3,
+    10
+  ]
+}

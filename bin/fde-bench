@@ -1,0 +1,5 @@
+#!/usr/bin/env node
+// fde-bench CLI entry: registers tsx in-process (so signals reach the runner directly) and runs src/cli.ts.
+import { register } from "tsx/esm/api";
+register();
+await import(new URL("../src/cli.ts", import.meta.url).href);

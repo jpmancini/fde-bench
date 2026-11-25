@@ -1,0 +1,731 @@
+{
+ "render": {
+  "state": "TODAY: 2027-02-11 (day 10 from the kickoff Monday 2027-02-01)\nPEOPLE: provider Mavnox, Rowan Pike; client Quillfeather Bakery Supply, Dana Thistlewood\n\nPROJECT STATE:\n- [s1] current/interaction: Blocked: waiting on the warehouse team\n- [s2] goal/entity: Pilot live | Buyers self-serve wholesale prices xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...\n\nCUSTOMER STATE:\n- [s3] current/entity: Runs a marzipan ledger\n\nPROVIDER STATE:\n- [s4] current/entity: Team: Rowan Pike",
+  "action": "TODAY: 2027-02-11 (day 10 from the kickoff Monday 2027-02-01)\nPEOPLE: provider Mavnox, Rowan Pike; client Quillfeather Bakery Supply, Dana Thistlewood\n\nPROJECT STATE:\n- [s1] current/interaction: Blocked: waiting on the warehouse team\n- [s2] goal/entity: Pilot live | Buyers self-serve wholesale prices xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...\n\nACTIONS:\n- [a1] (done) P1 Run the kickoff call | owner: Mavnox: lead\n- [a2] (blocked) P? Unblock: warehouse credentials | owner: Quillfeather: Dana | blocked: warehouse team | after a1 | chase Thursday\n- [a3] (todo) P? Meet deadline: pilot live | owner: unassigned | due 2027-02-26 (deadline d1: pilot live 2027-02-26)\n\nDEADLINES:\n- [d1] 2027-02-26 Pilot live | \"The pilot must be live by 2027-02-26\"\n- [d2] 2027-03-01 No quote",
+  "deadline": "TODAY: 2027-02-11 (day 10 from the kickoff Monday 2027-02-01)\nPEOPLE: provider Mavnox, Rowan Pike; client Quillfeather Bakery Supply, Dana Thistlewood\n\nPROJECT STATE:\n- [s1] current/interaction: Blocked: waiting on the warehouse team\n- [s2] goal/entity: Pilot live | Buyers self-serve wholesale prices xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...\n\nACTIONS:\n- [a1] (done) P1 Run the kickoff call | owner: Mavnox: lead\n- [a2] (blocked) P? Unblock: warehouse credentials | owner: Quillfeather: Dana | blocked: warehouse team | after a1 | chase Thursday\n- [a3] (todo) P? Meet deadline: pilot live | owner: unassigned | due 2027-02-26 (deadline d1: pilot live 2027-02-26)\n\nDEADLINES:\n- [d1] 2027-02-26 Pilot live | \"The pilot must be live by 2027-02-26\"\n- [d2] 2027-03-01 No quote",
+  "lesson": "TODAY: 2027-02-11 (day 10 from the kickoff Monday 2027-02-01)\nPEOPLE: provider Mavnox, Rowan Pike; client Quillfeather Bakery Supply, Dana Thistlewood\n\nPROJECT STATE:\n- [s1] current/interaction: Blocked: waiting on the warehouse team\n- [s2] goal/entity: Pilot live | Buyers self-serve wholesale prices xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...\n\nLESSONS:\n- [l1] (captured, repo-check) Client correction: price list is wrong | retail vs wholesale",
+  "blocker": "TODAY: 2027-02-11 (day 10 from the kickoff Monday 2027-02-01)\nPEOPLE: provider Mavnox, Rowan Pike; client Quillfeather Bakery Supply, Dana Thistlewood\n\nPROJECT STATE:\n- [s1] current/interaction: Blocked: waiting on the warehouse team\n- [s2] goal/entity: Pilot live | Buyers self-serve wholesale prices xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...\n\nACTIONS:\n- [a1] (done) P1 Run the kickoff call | owner: Mavnox: lead\n- [a2] (blocked) P? Unblock: warehouse credentials | owner: Quillfeather: Dana | blocked: warehouse team | after a1 | chase Thursday\n- [a3] (todo) P? Meet deadline: pilot live | owner: unassigned | due 2027-02-26 (deadline d1: pilot live 2027-02-26)",
+  "priority": "TODAY: 2027-02-11 (day 10 from the kickoff Monday 2027-02-01)\nPEOPLE: provider Mavnox, Rowan Pike; client Quillfeather Bakery Supply, Dana Thistlewood\n\nPROJECT STATE:\n- [s1] current/interaction: Blocked: waiting on the warehouse team\n- [s2] goal/entity: Pilot live | Buyers self-serve wholesale prices xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...\n\nACTIONS:\n- [a1] (done) P1 Run the kickoff call | owner: Mavnox: lead\n- [a2] (blocked) P? Unblock: warehouse credentials | owner: Quillfeather: Dana | blocked: warehouse team | after a1 | chase Thursday\n- [a3] (todo) P? Meet deadline: pilot live | owner: unassigned | due 2027-02-26 (deadline d1: pilot live 2027-02-26)\n\nDEADLINES:\n- [d1] 2027-02-26 Pilot live | \"The pilot must be live by 2027-02-26\"\n- [d2] 2027-03-01 No quote",
+  "timeline": "TODAY: 2027-02-11 (day 10 from the kickoff Monday 2027-02-01)\nPEOPLE: provider Mavnox, Rowan Pike; client Quillfeather Bakery Supply, Dana Thistlewood\n\nPROJECT STATE:\n- [s1] current/interaction: Blocked: waiting on the warehouse team\n- [s2] goal/entity: Pilot live | Buyers self-serve wholesale prices xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...\n\nTIMELINE (agreed):\n- [t1] 2027-02-01 (meeting, done) Kickoff call\n- [t2] 2027-02-22..2027-02-26 (deliverable, moved, moved from 2027-02-19) UAT",
+  "proof": "TODAY: 2027-02-11 (day 10 from the kickoff Monday 2027-02-01)\nPEOPLE: provider Mavnox, Rowan Pike; client Quillfeather Bakery Supply, Dana Thistlewood\n\nPROJECT STATE:\n- [s1] current/interaction: Blocked: waiting on the warehouse team\n- [s2] goal/entity: Pilot live | Buyers self-serve wholesale prices xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...\n\nPROOFS:\n- [p1] VERIFIED: Buyers see wholesale prices"
+ },
+ "draftTimeline": "TODAY: 2027-02-11 (day 10 from the kickoff Monday 2027-02-01)\n\nPROJECT STATE:\n- [s1] current/interaction: Blocked: waiting on the warehouse team\n- [s2] goal/entity: Pilot live | Buyers self-serve wholesale prices xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...\n\nTIMELINE (draft):\n(none)",
+ "stub": [
+  {
+   "type": "state",
+   "textAny": [
+    "warehouse"
+   ],
+   "holds": true
+  },
+  {
+   "type": "state",
+   "textAny": [
+    "marzipan"
+   ],
+   "holds": true
+  },
+  {
+   "type": "state",
+   "textAny": [
+    "Team: Rowan"
+   ],
+   "holds": true
+  },
+  {
+   "type": "state",
+   "textAny": [
+    "/pilot.*live/"
+   ],
+   "holds": true
+  },
+  {
+   "type": "state",
+   "textAny": [
+    "wholesale prices"
+   ],
+   "holds": true
+  },
+  {
+   "type": "state",
+   "textAny": [
+    "moved from 2027-02-19"
+   ],
+   "holds": false
+  },
+  {
+   "type": "state",
+   "textAny": [
+    "agreed"
+   ],
+   "holds": false
+  },
+  {
+   "type": "state",
+   "textAny": [
+    "Dana Thistlewood"
+   ],
+   "holds": true
+  },
+  {
+   "type": "state",
+   "textAny": [
+    "P?"
+   ],
+   "holds": false
+  },
+  {
+   "type": "state",
+   "textAny": [
+    "chase thursday"
+   ],
+   "holds": false
+  },
+  {
+   "type": "state",
+   "textAny": [
+    "The pilot must be live"
+   ],
+   "holds": false
+  },
+  {
+   "type": "state",
+   "textAny": [
+    "nothing like it"
+   ],
+   "holds": false
+  },
+  {
+   "type": "state",
+   "textAny": [],
+   "holds": false
+  },
+  {
+   "type": "action",
+   "textAny": [
+    "warehouse"
+   ],
+   "holds": true
+  },
+  {
+   "type": "action",
+   "textAny": [
+    "marzipan"
+   ],
+   "holds": false
+  },
+  {
+   "type": "action",
+   "textAny": [
+    "Team: Rowan"
+   ],
+   "holds": false
+  },
+  {
+   "type": "action",
+   "textAny": [
+    "/pilot.*live/"
+   ],
+   "holds": true
+  },
+  {
+   "type": "action",
+   "textAny": [
+    "wholesale prices"
+   ],
+   "holds": true
+  },
+  {
+   "type": "action",
+   "textAny": [
+    "moved from 2027-02-19"
+   ],
+   "holds": false
+  },
+  {
+   "type": "action",
+   "textAny": [
+    "agreed"
+   ],
+   "holds": false
+  },
+  {
+   "type": "action",
+   "textAny": [
+    "Dana Thistlewood"
+   ],
+   "holds": true
+  },
+  {
+   "type": "action",
+   "textAny": [
+    "P?"
+   ],
+   "holds": true
+  },
+  {
+   "type": "action",
+   "textAny": [
+    "chase thursday"
+   ],
+   "holds": true
+  },
+  {
+   "type": "action",
+   "textAny": [
+    "The pilot must be live"
+   ],
+   "holds": true
+  },
+  {
+   "type": "action",
+   "textAny": [
+    "nothing like it"
+   ],
+   "holds": false
+  },
+  {
+   "type": "action",
+   "textAny": [],
+   "holds": false
+  },
+  {
+   "type": "deadline",
+   "textAny": [
+    "warehouse"
+   ],
+   "holds": true
+  },
+  {
+   "type": "deadline",
+   "textAny": [
+    "marzipan"
+   ],
+   "holds": false
+  },
+  {
+   "type": "deadline",
+   "textAny": [
+    "Team: Rowan"
+   ],
+   "holds": false
+  },
+  {
+   "type": "deadline",
+   "textAny": [
+    "/pilot.*live/"
+   ],
+   "holds": true
+  },
+  {
+   "type": "deadline",
+   "textAny": [
+    "wholesale prices"
+   ],
+   "holds": true
+  },
+  {
+   "type": "deadline",
+   "textAny": [
+    "moved from 2027-02-19"
+   ],
+   "holds": false
+  },
+  {
+   "type": "deadline",
+   "textAny": [
+    "agreed"
+   ],
+   "holds": false
+  },
+  {
+   "type": "deadline",
+   "textAny": [
+    "Dana Thistlewood"
+   ],
+   "holds": true
+  },
+  {
+   "type": "deadline",
+   "textAny": [
+    "P?"
+   ],
+   "holds": true
+  },
+  {
+   "type": "deadline",
+   "textAny": [
+    "chase thursday"
+   ],
+   "holds": true
+  },
+  {
+   "type": "deadline",
+   "textAny": [
+    "The pilot must be live"
+   ],
+   "holds": true
+  },
+  {
+   "type": "deadline",
+   "textAny": [
+    "nothing like it"
+   ],
+   "holds": false
+  },
+  {
+   "type": "deadline",
+   "textAny": [],
+   "holds": false
+  },
+  {
+   "type": "lesson",
+   "textAny": [
+    "warehouse"
+   ],
+   "holds": true
+  },
+  {
+   "type": "lesson",
+   "textAny": [
+    "marzipan"
+   ],
+   "holds": false
+  },
+  {
+   "type": "lesson",
+   "textAny": [
+    "Team: Rowan"
+   ],
+   "holds": false
+  },
+  {
+   "type": "lesson",
+   "textAny": [
+    "/pilot.*live/"
+   ],
+   "holds": true
+  },
+  {
+   "type": "lesson",
+   "textAny": [
+    "wholesale prices"
+   ],
+   "holds": true
+  },
+  {
+   "type": "lesson",
+   "textAny": [
+    "moved from 2027-02-19"
+   ],
+   "holds": false
+  },
+  {
+   "type": "lesson",
+   "textAny": [
+    "agreed"
+   ],
+   "holds": false
+  },
+  {
+   "type": "lesson",
+   "textAny": [
+    "Dana Thistlewood"
+   ],
+   "holds": true
+  },
+  {
+   "type": "lesson",
+   "textAny": [
+    "P?"
+   ],
+   "holds": false
+  },
+  {
+   "type": "lesson",
+   "textAny": [
+    "chase thursday"
+   ],
+   "holds": false
+  },
+  {
+   "type": "lesson",
+   "textAny": [
+    "The pilot must be live"
+   ],
+   "holds": false
+  },
+  {
+   "type": "lesson",
+   "textAny": [
+    "nothing like it"
+   ],
+   "holds": false
+  },
+  {
+   "type": "lesson",
+   "textAny": [],
+   "holds": false
+  },
+  {
+   "type": "blocker",
+   "textAny": [
+    "warehouse"
+   ],
+   "holds": true
+  },
+  {
+   "type": "blocker",
+   "textAny": [
+    "marzipan"
+   ],
+   "holds": false
+  },
+  {
+   "type": "blocker",
+   "textAny": [
+    "Team: Rowan"
+   ],
+   "holds": false
+  },
+  {
+   "type": "blocker",
+   "textAny": [
+    "/pilot.*live/"
+   ],
+   "holds": true
+  },
+  {
+   "type": "blocker",
+   "textAny": [
+    "wholesale prices"
+   ],
+   "holds": true
+  },
+  {
+   "type": "blocker",
+   "textAny": [
+    "moved from 2027-02-19"
+   ],
+   "holds": false
+  },
+  {
+   "type": "blocker",
+   "textAny": [
+    "agreed"
+   ],
+   "holds": false
+  },
+  {
+   "type": "blocker",
+   "textAny": [
+    "Dana Thistlewood"
+   ],
+   "holds": true
+  },
+  {
+   "type": "blocker",
+   "textAny": [
+    "P?"
+   ],
+   "holds": true
+  },
+  {
+   "type": "blocker",
+   "textAny": [
+    "chase thursday"
+   ],
+   "holds": true
+  },
+  {
+   "type": "blocker",
+   "textAny": [
+    "The pilot must be live"
+   ],
+   "holds": false
+  },
+  {
+   "type": "blocker",
+   "textAny": [
+    "nothing like it"
+   ],
+   "holds": false
+  },
+  {
+   "type": "blocker",
+   "textAny": [],
+   "holds": false
+  },
+  {
+   "type": "priority",
+   "textAny": [
+    "warehouse"
+   ],
+   "holds": true
+  },
+  {
+   "type": "priority",
+   "textAny": [
+    "marzipan"
+   ],
+   "holds": false
+  },
+  {
+   "type": "priority",
+   "textAny": [
+    "Team: Rowan"
+   ],
+   "holds": false
+  },
+  {
+   "type": "priority",
+   "textAny": [
+    "/pilot.*live/"
+   ],
+   "holds": true
+  },
+  {
+   "type": "priority",
+   "textAny": [
+    "wholesale prices"
+   ],
+   "holds": true
+  },
+  {
+   "type": "priority",
+   "textAny": [
+    "moved from 2027-02-19"
+   ],
+   "holds": false
+  },
+  {
+   "type": "priority",
+   "textAny": [
+    "agreed"
+   ],
+   "holds": false
+  },
+  {
+   "type": "priority",
+   "textAny": [
+    "Dana Thistlewood"
+   ],
+   "holds": true
+  },
+  {
+   "type": "priority",
+   "textAny": [
+    "P?"
+   ],
+   "holds": true
+  },
+  {
+   "type": "priority",
+   "textAny": [
+    "chase thursday"
+   ],
+   "holds": true
+  },
+  {
+   "type": "priority",
+   "textAny": [
+    "The pilot must be live"
+   ],
+   "holds": true
+  },
+  {
+   "type": "priority",
+   "textAny": [
+    "nothing like it"
+   ],
+   "holds": false
+  },
+  {
+   "type": "priority",
+   "textAny": [],
+   "holds": false
+  },
+  {
+   "type": "timeline",
+   "textAny": [
+    "warehouse"
+   ],
+   "holds": true
+  },
+  {
+   "type": "timeline",
+   "textAny": [
+    "marzipan"
+   ],
+   "holds": false
+  },
+  {
+   "type": "timeline",
+   "textAny": [
+    "Team: Rowan"
+   ],
+   "holds": false
+  },
+  {
+   "type": "timeline",
+   "textAny": [
+    "/pilot.*live/"
+   ],
+   "holds": true
+  },
+  {
+   "type": "timeline",
+   "textAny": [
+    "wholesale prices"
+   ],
+   "holds": true
+  },
+  {
+   "type": "timeline",
+   "textAny": [
+    "moved from 2027-02-19"
+   ],
+   "holds": true
+  },
+  {
+   "type": "timeline",
+   "textAny": [
+    "agreed"
+   ],
+   "holds": true
+  },
+  {
+   "type": "timeline",
+   "textAny": [
+    "Dana Thistlewood"
+   ],
+   "holds": true
+  },
+  {
+   "type": "timeline",
+   "textAny": [
+    "P?"
+   ],
+   "holds": false
+  },
+  {
+   "type": "timeline",
+   "textAny": [
+    "chase thursday"
+   ],
+   "holds": false
+  },
+  {
+   "type": "timeline",
+   "textAny": [
+    "The pilot must be live"
+   ],
+   "holds": false
+  },
+  {
+   "type": "timeline",
+   "textAny": [
+    "nothing like it"
+   ],
+   "holds": false
+  },
+  {
+   "type": "timeline",
+   "textAny": [],
+   "holds": false
+  },
+  {
+   "type": "proof",
+   "textAny": [
+    "warehouse"
+   ],
+   "holds": true
+  },
+  {
+   "type": "proof",
+   "textAny": [
+    "marzipan"
+   ],
+   "holds": false
+  },
+  {
+   "type": "proof",
+   "textAny": [
+    "Team: Rowan"
+   ],
+   "holds": false
+  },
+  {
+   "type": "proof",
+   "textAny": [
+    "/pilot.*live/"
+   ],
+   "holds": true
+  },
+  {
+   "type": "proof",
+   "textAny": [
+    "wholesale prices"
+   ],
+   "holds": true
+  },
+  {
+   "type": "proof",
+   "textAny": [
+    "moved from 2027-02-19"
+   ],
+   "holds": false
+  },
+  {
+   "type": "proof",
+   "textAny": [
+    "agreed"
+   ],
+   "holds": false
+  },
+  {
+   "type": "proof",
+   "textAny": [
+    "Dana Thistlewood"
+   ],
+   "holds": true
+  },
+  {
+   "type": "proof",
+   "textAny": [
+    "P?"
+   ],
+   "holds": false
+  },
+  {
+   "type": "proof",
+   "textAny": [
+    "chase thursday"
+   ],
+   "holds": false
+  },
+  {
+   "type": "proof",
+   "textAny": [
+    "The pilot must be live"
+   ],
+   "holds": false
+  },
+  {
+   "type": "proof",
+   "textAny": [
+    "nothing like it"
+   ],
+   "holds": false
+  },
+  {
+   "type": "proof",
+   "textAny": [],
+   "holds": false
+  }
+ ],
+ "prompt": {
+  "expect": "STATEMENT (something that should be true; about: lesson):\nThe lesson holds\n\nOLDO RECORDS:\nTODAY: 2027-02-11 (day 10 from the kickoff Monday 2027-02-01)\nPEOPLE: provider Mavnox, Rowan Pike; client Quillfeather Bakery Supply, Dana Thistlewood\n\nPROJECT STATE:\n- [s1] current/interaction: Blocked: waiting on the warehouse team\n- [s2] goal/entity: Pilot live | Buyers self-serve wholesale prices xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...\n\nLESSONS:\n- [l1] (captured, repo-check) Client correction: price list is wrong | retail vs wholesale",
+  "forbid": "STATEMENT (something that must NOT happen; holds = it happened; about: lesson):\nThe lesson holds\n\nOLDO RECORDS:\nTODAY: 2027-02-11 (day 10 from the kickoff Monday 2027-02-01)\nPEOPLE: provider Mavnox, Rowan Pike; client Quillfeather Bakery Supply, Dana Thistlewood\n\nPROJECT STATE:\n- [s1] current/interaction: Blocked: waiting on the warehouse team\n- [s2] goal/entity: Pilot live | Buyers self-serve wholesale prices xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...\n\nLESSONS:\n- [l1] (captured, repo-check) Client correction: price list is wrong | retail vs wholesale"
+ }
+}
